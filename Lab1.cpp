@@ -84,7 +84,7 @@ void subseq(std::vector <int> vec)
 
 int main()
 {
-    cout << "1- alle prim zahlen bis zu N\n2-langste ansteigende Kette\n";
+    cout << "1- alle prim zahlen bis zu N\n2-langste ansteigende Kette, no bine a hai ca merge ma bag lol\n";
     int x;
     std::cin >> x;
     if (x == 2)
