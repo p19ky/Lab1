@@ -148,6 +148,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Lab1.cpp" />
+    <ClCompile Include="pb1.cpp" />
+    <ClCompile Include="pb2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pb1.h" />
+    <ClInclude Include="pb2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
