@@ -51,7 +51,7 @@ void primzahlen(int numprimes)
 }
 
 
-void subseq(std::vector <int> vec)
+void subseq1(std::vector <int> vec)
 {
     int contor = 1, poz = 0, max = -1, maxcontor = -1, i = 0;
 
@@ -91,7 +91,7 @@ void main_pb2()
     if (x == 2)
     {
         std::vector <int> vecti{ 1,2,3,4,4,4 };
-        subseq(vecti);
+        subseq1(vecti);
     }
     else if (x == 1)
     {

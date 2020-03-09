@@ -67,7 +67,9 @@ void subseq(vector <int> vec)
 
 void main_pbA()
 {
-    int n = 10;
+    int n;
+    cout << "n: ";
+    cin >> n;
     cout << "Primele " << n << " numere prime: ";
     generare_nr_prime(n);
 }
